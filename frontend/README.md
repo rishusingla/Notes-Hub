@@ -1,12 +1,52 @@
-# React + Vite
+# 📚 College Notes Sharing Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional and user-friendly platform for students to upload, browse, and download study notes.  
+Built with **MERN stack** + **Tailwind CSS** for a smooth and modern experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 📤 **Upload Notes** — Upload PDF notes with title, subject, semester, and branch.
+- 🔍 **Search & Filter** — Search notes by title/subject and filter by semester/branch.
+- 📅 **Sort Options** — Sort by newest/oldest or by ratings.
+- ⭐ **Ratings & Likes** — Students can rate notes for quality feedback.
+- 📥 **Download Notes** — Direct PDF downloads from Firebase Storage.
+- 👤 **User Profiles** — Upload profile pictures or sign in with Google.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+**Frontend:**
+
+- React.js
+- Tailwind CSS
+- Axios
+
+**Backend:**
+
+- Node.js
+- Express.js
+- MongoDB Atlas (via Mongoose)
+
+**Storage & Auth:**
+
+---
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/<your-username>/<repo-name>.git
+
+```
+
+# Frontend
+
+cd frontend
+npm install
+
+# Backend
+
+cd ../backend
+npm install
